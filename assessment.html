@@ -9,21 +9,52 @@
 <body>
    <h2> TEXT </h2>
    <p> <strong>Lorem</strong> Ipsum . . . </p>
-   <p> Lorem Ipsum . . . </p>
+   <blockquote>
+      <p>
+         <strong>Lorem</strong> Ipsum . . .
+      </p>
+   </blockquote>
    <p> Lorem Ipsum . . . </p>
 
    <h2> TABLE </h2>
    <table>
       <caption> Game Summary </caption>
       <thead>
-
+         <tr>
+            <th rowspan="2"> Team Name </th>
+            <th colspan="2"> First Half </th>
+            <th colspan="2"> Second Half </th>
+            <th rowspan="2"> Final </th>
+         </tr>
+         <tr>
+            <th> Q1 </th>
+            <th> Q2 </th>
+            <th> Q3 </th>
+            <th> Q4 </th>
+         </tr>
       </thead>
       <tbody>
-
+         <tr>
+            <th> Denver </th>
+            <td> 7 </td>
+            <td> 0 </td>
+            <td> 3 </td>
+            <td> 7 </td>
+            <td> 17 </td>
+         </tr>
       </tbody>
    </table>
+
    <h2> LIST </h2>
+   <ul>
+      <li> Denver Broncos </li>
+      <li> Chicago Bears </li>
+   </ul>
+
    <h2> FORM </h2>
+   <form>
+      <input type="text" name="firstName">
+   </form>
 </body>
 
 </html>
